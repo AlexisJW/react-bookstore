@@ -3,7 +3,7 @@
 ![](https://img.shields.io/badge/JavaScript-yellow)
 ![](https://img.shields.io/badge/React-green)
 
-  <h3><b>README FILE</b></h3>
+  <h3><b>Bookstore</b></h3>
 
 </div>
 
@@ -31,8 +31,6 @@
 
 **[BookStore]** is a project that uses a Single Page Application format to display items on a page.
 A user can switch to two pages where in one displays the titles and authors of books, and also a form to add a new book.
-    Read a random math-related quote.
-
 By building this application, you will learn how to use React.
 
 
@@ -61,18 +59,9 @@ Built With
 
 ### Key Features <a name="key-features"></a>
 
-- **[Create React App]**
 - **[Display a list of books]**
 - **[Add a book]**
 - **[Remove a selected book]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- Not Available
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -80,7 +69,7 @@ Built With
 
 ## 💻 Getting Started <a name="#getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+To get a local copy up and running, follow these steps below.
 
 ### Prerequisites <a name="#Prerequisities"></a>
 
@@ -193,13 +182,19 @@ Setup
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+🔭 Future Feature
+
+ - [Addition of the pages]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/AlexisJW/react-math-magic/issues).
+Feel free to check the [issues page](https://github.com/AlexisJW/react-bookstore/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -213,13 +208,14 @@ Give a ⭐️ if you like this project!...
 
 🙏 Acknowledgments
 
-I would like to thank Microverse.
+I would like to thank Microverse, Code Reviewers.
 
 ## ❓ FAQ (OPTIONAL) <a name="#faq"></a>
 
 - **What is this for?**
 
-  - "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.
+  - "BookStore" is a project that uses a Single Page Application format to display items on a page.
+A user can switch to two pages where in one displays the titles and authors of books, and also a form to add a new book.
 
 - **Can i copy this project?**
 
