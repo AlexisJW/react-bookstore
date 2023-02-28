@@ -16,8 +16,11 @@ const bookItemsSlice = createSlice({
     removeBook: (state, action) => {
       const bookId = action.payload;
       state.bookItems = state.bookItems.filter((bookItem) => bookItem.id !== bookId);
-    }
+    },
   },
 });
 
+export const {
+  addBook, removeBook,
+} = bookItemsSlice.actions;
 export default bookItemsSlice.reducer;
