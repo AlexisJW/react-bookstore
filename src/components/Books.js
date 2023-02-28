@@ -3,7 +3,7 @@ import Book from './Book';
 
 const Books = ({ books }) => (
   <ul>
-    {books.map((book) => (
+    {JSON.parse(books).map((book) => (
       <Book key={book.id} bookProp={book} />
     ))}
   </ul>
