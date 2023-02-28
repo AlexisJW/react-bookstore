@@ -17,7 +17,7 @@ const bookItemsSlice = createSlice({
       const bookId = action.payload;
       state.bookItems = state.bookItems.filter((bookItem) => bookItem.id !== bookId);
     }
-  }
+  },
 });
 
-export default cartSlice.reducer;
+export default bookItemsSlice.reducer;
