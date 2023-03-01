@@ -19,7 +19,7 @@ const categoriesItemsSlice = createSlice({
 });
 
 export const {
-  checkStatus
+  checkStatus,
 } = categoriesItemsSlice.actions;
 
 export default categoriesItemsSlice.reducer;

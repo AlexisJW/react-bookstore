@@ -3,7 +3,7 @@ import Books from '../components/Books';
 import Input from '../components/Input';
 
 const BookPage = () => {
-  const { bookItems, isLoading } = useSelector((state) => state.book);
+  const { bookItems } = useSelector((state) => state.book);
   const bookArray = JSON.parse(JSON.stringify(bookItems));
   return (
     <section>

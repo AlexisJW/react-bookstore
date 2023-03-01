@@ -37,6 +37,7 @@ const bookItemsSlice = createSlice({
     addBook: (state, { payload }) => ({ bookItems: [...state.bookItems, payload] }),
     removeBook: (state, action) => {
       const bookId = action.payload;
+      // eslint-disable-next-line
       state.bookItems = state.bookItems.filter((bookItem) => bookItem.id !== bookId);
     },
   },
