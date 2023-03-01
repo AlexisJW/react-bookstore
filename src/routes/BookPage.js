@@ -4,11 +4,10 @@ import Input from '../components/Input';
 
 const BookPage = () => {
   const { bookItems, isLoading } = useSelector((state) => state.book);
-  console.log(`*****: ${JSON.stringify(bookItems)}`);
-
+  const bookArray = JSON.parse(JSON.stringify(bookItems));
   return (
     <section>
-      <Books books={JSON.stringify(bookItems)} />
+      <Books books={bookArray} />
       <Input />
     </section>
   );
