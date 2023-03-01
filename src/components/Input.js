@@ -27,7 +27,7 @@ const Input = () => {
       id: uuid(),
       title,
       author,
-      category: 'Catego',
+      category: 'category',
       progress: '1%',
     };
 

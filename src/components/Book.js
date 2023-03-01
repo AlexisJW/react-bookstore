@@ -8,7 +8,16 @@ const Book = ({ bookProp }) => {
     <li>
       <div>
         <h2>{bookProp.title}</h2>
-        <p>{bookProp.author}</p>
+        <p>
+          <b>AUTHOR: </b>
+          {' '}
+          {bookProp.author}
+        </p>
+        <p>
+          <b>CATEGORY: </b>
+          {' '}
+          {bookProp.category}
+        </p>
         <button
           type="submit"
           onClick={() => {
@@ -27,6 +36,7 @@ Book.propTypes = {
     id: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     author: PropTypes.string.isRequired,
+    category: PropTypes.string.isRequired,
   }).isRequired,
 };
 

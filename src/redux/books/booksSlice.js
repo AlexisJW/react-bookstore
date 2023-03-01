@@ -13,7 +13,7 @@ const books = [
     id: uuidv4(),
     title: 'Introduction to Algorithms',
     author: 'Thomas H. Corme',
-    category: 'Computer sciences',
+    category: 'Programmation',
     progress: '2%',
   },
   {
