@@ -92,7 +92,7 @@ Install Node.JS
 Clone this repository to your desired folder:
 
 ```sh
-  cd react-bookstore
+  cd desired-folder
   git clone https://github.com/AlexisJW/react-bookstore.git
 ```
 ### Install
@@ -100,10 +100,9 @@ Clone this repository to your desired folder:
 Install dependencies of this project with:
 
 ```sh
-  cd my-project
+  cd react-bookstore
   npm install
 ```
--
 
 ### Usage
 
@@ -112,7 +111,6 @@ To run the project, execute the following command:
 ```sh
   npm start
 ```
--
 
 ### Run tests
 
