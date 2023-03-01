@@ -65,109 +65,65 @@ Built With
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- Coming soon.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- GETTING STARTED -->
 
-## 💻 Getting Started <a name="#getting-started"></a>
+## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps below.
+To get a local copy up and running, follow these steps.
 
-### Prerequisites <a name="#Prerequisities"></a>
+### Prerequisites
 
-If you haven't yet, you should first [set up Git.](https://docs.github.com/en/get-started/quickstart/set-up-git) Don't forget to [set up authentication to GitHub.com from Git](https://docs.github.com/en/get-started/quickstart/set-up-git#next-steps-authenticating-with-github-from-git) as well.
+In order to run this project you need:
 
-### Usage <a name="Usage"></a>
+Git
+Visual Studio Code
+Install Node.JS
 
-- Clone the repository
+### Setup
 
-  - Above the list of files, click **↓Code**
-  - Clone with HTTPS
-  - Open Terminal
-  - Change the current working directory to the location where you want the cloned directory
-  - Type `git clone`, and then paste the URL you copied earlier
-  - Press Enter. Your local clone will be created`
+Clone this repository to your desired folder:
 
-  # Getting Started with Create React App
+```sh
+  cd desired-folder
+  git clone https://github.com/AlexisJW/react-bookstore.git
+```
+### Install
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Install dependencies of this project with:
 
-## Available Scripts
+```sh
+  cd react-bookstore
+  npm install
+```
 
-In the project directory, you can run:
+### Usage
 
-### `npm start`
+To run the project, execute the following command:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```sh
+  npm start
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Run tests
 
-### `npm test`
+To run tests, run the following command:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```sh
+  npm test
+```
+-
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-Prerequisites
-
-- IDE (VSCode is suggested.)
-- Node installed and configured.
-- Git installed and configured.
-
-Setup
-
-- Clone the repository.
-- Open the project folder in your IDE.
-- Run the commands specified above
+Coming Soon!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
