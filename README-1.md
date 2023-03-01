@@ -1,7 +1,6 @@
-﻿﻿![](https://img.shields.io/badge/Academic-blue)
-![](https://img.shields.io/badge/HTML-red)
-![](https://img.shields.io/badge/JavaScript-yellow)
-![](https://img.shields.io/badge/React-green)
+<a name="readme-top"></a>
+
+<div align="center">
 
   <h3><b>Bookstore</b></h3>
 
@@ -17,41 +16,34 @@
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Install](#install)
   - [Usage](#usage)
-   [👥 Authors](#authors)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
-- [❓ FAQ (OPTIONAL)](#faq) 
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [BookStore] <a name="about-project"></a>
+# 📖 [Bookstore] <a name="about-project"></a>
 
-**[BookStore]** is a project that uses a Single Page Application format to display items on a page.
-A user can switch to two pages where in one displays the titles and authors of books, and also a form to add a new book.
-By building this application, you will learn how to use React.
-
+**[Bookstore]** is a web application for keeping track of books.
 
 ## 🛠 Built With <a name="built-with"></a>
-Built With
-- React
-- Linters
-- Jest
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li>HTML5</li>
-    <li>CSS</li>
-    <li>JS</li>
-    <li>ESLint</li>
-    <li>StyleLints</li>
-    <li>GitFlow</li>
-    <li>ReactJS</li>
+    <li><a href="https://reactjs.org/">React.js</a></li>
   </ul>
 </details>
 
@@ -59,9 +51,8 @@ Built With
 
 ### Key Features <a name="key-features"></a>
 
-- **[Display a list of books]**
-- **[Add a book]**
-- **[Remove a selected book]**
+- **[Book tracking]**
+- **[Page routing]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -83,8 +74,6 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-Git
-Visual Studio Code
 Install Node.JS
 
 ### Setup
@@ -92,8 +81,8 @@ Install Node.JS
 Clone this repository to your desired folder:
 
 ```sh
-  cd react-bookstore
-  git clone https://github.com/AlexisJW/react-bookstore.git
+  cd my-folder
+  git clone https://github.com/simplegoose/bookstore.git
 ```
 ### Install
 
@@ -133,16 +122,18 @@ Coming Soon!
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Jean Walner Alexis**
 
-- GitHub: [@AlexisJW](https://github.com/AlexisJW)
-- LinkedIn: [Jean Walner Alexis](https://www.linkedin.com/in/jean-walner-alexis-b05539175/)
+👤 **Simplegoose**
+
+- GitHub: [@simplegoose](https://github.com/simplegoose)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-🔭 Future Feature
+<!-- FUTURE FEATURES -->
 
- - [Addition of the pages]
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **[API integration]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -152,32 +143,23 @@ Coming Soon!
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/AlexisJW/react-bookstore/issues).
+Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
 
-## ⭐️ Show your support <a name="#support"></a>
+## ⭐️ Show your support <a name="support"></a>
 
-Give a ⭐️ if you like this project!...
+If you like this project leave a star on this repo.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-🙏 Acknowledgments
+<!-- ACKNOWLEDGEMENTS -->
 
-I would like to thank Microverse, Code Reviewers.
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-## ❓ FAQ (OPTIONAL) <a name="#faq"></a>
-
-- **What is this for?**
-
-  - "BookStore" is a project that uses a Single Page Application format to display items on a page.
-A user can switch to two pages where in one displays the titles and authors of books, and also a form to add a new book.
-
-- **Can i copy this project?**
-
-  - Your welcome, copy this project and let me know if you need something.
+I would like to thank Microverse.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -185,6 +167,6 @@ A user can switch to two pages where in one displays the titles and authors of b
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE.md) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
