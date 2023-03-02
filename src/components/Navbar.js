@@ -5,7 +5,7 @@ const Navbar = () => (
   <nav className="nav-container">
     <span className="logo"> Bookstore CMS </span>
     <ul className="link-container">
-      <li key="BOOKS">
+      <li key="BOOKS" className="liko">
         <NavLink
           to="/"
         >

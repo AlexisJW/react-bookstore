@@ -37,6 +37,7 @@ Variables
   background-color: var(--z);
 }
 
+/* navbar */
 .nav-container {
   display: flex;
   width: 87.5rem;
@@ -67,6 +68,7 @@ Variables
   align-items: stretch;
   justify-content: stretch;
   list-style: none;
+  text-decoration: none;
 }
 
 .books {
@@ -107,4 +109,21 @@ Variables
 
 .mask svg {
   color: var(--azure);
+}
+
+/* navbar ending */
+
+.book-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  width: 75rem;
+  height: 10.625rem;
+  margin: 2.313rem 6.25rem 0;
+  padding: 2rem 9.188rem 1.625rem 1.688rem;
+  border-radius: 4px;
+  border: solid 1px var(--white);
+
+  /* background-color: var(--white-two); */
+  background-color: red;
 }

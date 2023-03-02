@@ -5,29 +5,42 @@ import { removeBook } from '../redux/books/booksSlice';
 const Book = ({ bookProp }) => {
   const dispatch = useDispatch();
   return (
-    <li>
-      <div>
-        <h2>{bookProp.title}</h2>
-        <p>
-          <b>AUTHOR: </b>
-          {' '}
-          {bookProp.author}
-        </p>
-        <p>
-          <b>CATEGORY: </b>
-          {' '}
-          {bookProp.category}
-        </p>
-        <button
-          type="submit"
-          onClick={() => {
-            dispatch(removeBook(bookProp.item_id));
-          }}
-        >
-          remove
-        </button>
+    <div className="book-card">
+      <div className="book-part">
+        <li>
+          <div>
+            <h2>{bookProp.title}</h2>
+            <p>
+              <b>AUTHOR: </b>
+              {' '}
+              {bookProp.author}
+            </p>
+            <p>
+              <b>CATEGORY: </b>
+              {' '}
+              {bookProp.category}
+            </p>
+            <button
+              type="submit"
+              onClick={() => {
+                dispatch(removeBook(bookProp.item_id));
+              }}
+            >
+              remove
+            </button>
+          </div>
+        </li>
       </div>
-    </li>
+
+      <div className="progress-part">
+        <p> Progress </p>
+      </div>
+
+      <div className="chapter-part">
+        <p> chapter </p>
+      </div>
+
+    </div>
   );
 };
 
