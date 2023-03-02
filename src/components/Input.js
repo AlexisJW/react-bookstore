@@ -24,7 +24,7 @@ const Input = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const data = {
-      id: uuid(),
+      item_id: uuid(),
       title,
       author,
       category: 'category',
