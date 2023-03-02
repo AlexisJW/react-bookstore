@@ -47,6 +47,17 @@ const bookItemsSlice = createSlice({
   initialState,
   extraReducers: (builder) => {
     builder
+      .addCase(getBookItems.pending, (state) => ({ ...state, isLoading: true }))
+      .addCase(getBookItems.fulfilled, (state, { payload }) => {
+        const bookItems = Object.entries(payload).map(([itemId, [bookItem]]) => ({
+          item_id: itemId,
+          ...bookItem,
+          progress: '0%',
+        }));
+
+        return { ...state, isLoading: false, bookItems };
+      })
+      .addCase(getBookItems.rejected, (state) => ({ ...state, isLoading: false }))
       .addCase(addBook.pending, (state) => ({ ...state, isLoading: true }))
       .addCase(addBook.fulfilled,
         (state) => ({ ...state, isLoading: false }))
@@ -54,19 +65,7 @@ const bookItemsSlice = createSlice({
       .addCase(removeBook.pending, (state) => ({ ...state, isLoading: true }))
       .addCase(removeBook.fulfilled,
         (state) => ({ ...state, isLoading: false }))
-      .addCase(removeBook.rejected, (state) => ({ ...state, isLoading: false }))
-      .addCase(getBookItems.pending, (state) => ({ ...state, isLoading: true }))
-      .addCase(getBookItems.fulfilled,
-        (state, { payload }) => {
-          const array = [];
-          const entries = Object.entries(payload);
-          entries.forEach((entry) => {
-            array.push({ item_id: entry[0], ...entry[1][0], progress: '0%' });
-          });
-
-          return ({ ...state, isLoading: false, bookItems: array });
-        })
-      .addCase(getBookItems.rejected, (state) => ({ ...state, isLoading: false }));
+      .addCase(removeBook.rejected, (state) => ({ ...state, isLoading: false }));
   },
 });
 

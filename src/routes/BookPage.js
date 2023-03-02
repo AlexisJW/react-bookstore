@@ -15,10 +15,21 @@ const BookPage = () => {
   }
 
   return (
-    <section>
-      <Books books={bookArray} />
-      <Input />
-    </section>
+    bookArray.length === 0 ? (
+      <>
+        <section className="book">
+          <header>
+            <h4 className="empty-book">The book list is currently empty</h4>
+          </header>
+        </section>
+        <Input />
+      </>
+    ) : (
+      <section>
+        <Books books={bookArray} />
+        <Input />
+      </section>
+    )
   );
 };
 
