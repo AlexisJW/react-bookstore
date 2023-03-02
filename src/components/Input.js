@@ -24,7 +24,7 @@ const Input = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const data = {
-      id: uuid(),
+      item_id: uuid(),
       title,
       author,
       category: 'category',
@@ -38,8 +38,8 @@ const Input = () => {
 
   return (
     <form method="post" onSubmit={handleSubmit}>
-      <input className="input-book" type="text" placeholder="Add Book" onChange={handleChange} value={title} />
-      <input className="input-author" type="text" placeholder="Author" onChange={handleChange} value={author} />
+      <input className="input-book" type="text" placeholder="Add Book" onChange={handleChange} value={title} required />
+      <input className="input-author" type="text" placeholder="Author" onChange={handleChange} value={author} required />
       <button type="submit">Submit</button>
     </form>
   );

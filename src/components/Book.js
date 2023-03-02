@@ -21,7 +21,7 @@ const Book = ({ bookProp }) => {
         <button
           type="submit"
           onClick={() => {
-            dispatch(removeBook(bookProp.id));
+            dispatch(removeBook(bookProp.item_id));
           }}
         >
           remove
@@ -33,7 +33,7 @@ const Book = ({ bookProp }) => {
 
 Book.propTypes = {
   bookProp: PropTypes.shape({
-    id: PropTypes.string.isRequired,
+    item_id: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     author: PropTypes.string.isRequired,
     category: PropTypes.string.isRequired,
