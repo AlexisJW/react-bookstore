@@ -37,7 +37,7 @@ const Input = () => {
   };
 
   return (
-    <>
+    <div className="form-wrapper">
       <span className="add-new-book">
         ADD NEW BOOK
       </span>
@@ -45,14 +45,10 @@ const Input = () => {
         <input className="input-book" type="text" placeholder="Add Book" onChange={handleChange} value={title} required />
         <input className="input-author" type="text" placeholder="Author" onChange={handleChange} value={author} required />
         <button type="submit" className="rectangle-submit">
-          {' '}
-          <span className="add-book">
-            ADD BOOK
-          </span>
-          {' '}
+          ADD BOOK
         </button>
       </form>
-    </>
+    </div>
   );
 };
 

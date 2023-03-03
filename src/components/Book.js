@@ -6,59 +6,53 @@ const Book = ({ bookProp }) => {
   const dispatch = useDispatch();
   return (
     <div className="book-card">
-      <div className="book-part">
-        <li>
-          <div>
-            <p>
-              <span className="category">
-                {bookProp.category}
-              </span>
-            </p>
-            <p>
-              <span className="title">
-                {bookProp.title}
-              </span>
-            </p>
-            <p>
-              <span className="author">
-                {bookProp.author}
-              </span>
-            </p>
-            <button
-              className="comments"
-              type="submit"
-            >
-              Comments
-            </button>
-            <button
-              className="remove"
-              type="submit"
-              onClick={() => {
-                dispatch(removeBook(bookProp.item_id));
-              }}
-            >
-              Remove
-            </button>
-            <button
-              className="remove"
-              type="submit"
-            >
-              Edit
-            </button>
-          </div>
-        </li>
-      </div>
+      <li>
+        <div className="book-part">
+          <span className="category">
+            {bookProp.category}
+          </span>
+          <span className="title">
+            {bookProp.title}
+          </span>
+          <span className="author">
+            {bookProp.author}
+          </span>
+        </div>
+        <div className="action">
+          <button
+            className="action-button"
+            type="submit"
+          >
+            Comments
+          </button>
+          <button
+            className="action-button"
+            type="submit"
+            onClick={() => {
+              dispatch(removeBook(bookProp.item_id));
+            }}
+          >
+            Remove
+          </button>
+          <button
+            className="action-button"
+            type="submit"
+          >
+            Edit
+          </button>
+        </div>
+      </li>
 
       <div className="progress-part">
-        <div className="oval-2">
-          hhh
+        <div className="progress-circle">
+          <div className="oval-2" />
         </div>
         <div className="row-percent-complete">
           <div className="percent">
             98%
           </div>
           <div className="completed">
-            complete
+            Completed
           </div>
         </div>
       </div>
@@ -66,7 +60,7 @@ const Book = ({ bookProp }) => {
       <div className="chapter-part">
         <div className="current-chapter"> CURRENT CHAPTER </div>
         <div className="current-lesson"> Chapter3: ALessonLearned </div>
-        <div className="rectangle-2"><span className="update-progress"> Update progress </span></div>
+        <button type="button" className="update-progress"> Update Progress </button>
       </div>
 
     </div>

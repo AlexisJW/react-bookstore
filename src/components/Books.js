@@ -2,11 +2,14 @@ import PropTypes from 'prop-types';
 import Book from './Book';
 
 const Books = ({ books }) => (
-  <ul>
-    {books.map((book) => (
-      <Book key={book.item_id} bookProp={book} />
-    ))}
-  </ul>
+  <>
+    <ul>
+      {books.map((book) => (
+        <Book key={book.item_id} bookProp={book} />
+      ))}
+    </ul>
+    <div className="horizontal-divider" />
+  </>
 );
 
 Books.propTypes = {
