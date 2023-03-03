@@ -11,19 +11,16 @@ const Book = ({ bookProp }) => {
           <div>
             <p>
               <span className="category">
-                {' '}
                 {bookProp.category}
               </span>
             </p>
             <p>
               <span className="title">
-                {' '}
                 {bookProp.title}
               </span>
             </p>
             <p>
               <span className="author">
-                {' '}
                 {bookProp.author}
               </span>
             </p>

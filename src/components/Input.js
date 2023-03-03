@@ -37,11 +37,22 @@ const Input = () => {
   };
 
   return (
-    <form method="post" onSubmit={handleSubmit}>
-      <input className="input-book" type="text" placeholder="Add Book" onChange={handleChange} value={title} required />
-      <input className="input-author" type="text" placeholder="Author" onChange={handleChange} value={author} required />
-      <button type="submit">Submit</button>
-    </form>
+    <>
+      <span className="add-new-book">
+        ADD NEW BOOK
+      </span>
+      <form method="post" onSubmit={handleSubmit}>
+        <input className="input-book" type="text" placeholder="Add Book" onChange={handleChange} value={title} required />
+        <input className="input-author" type="text" placeholder="Author" onChange={handleChange} value={author} required />
+        <button type="submit" className="rectangle-submit">
+          {' '}
+          <span className="add-book">
+            ADD BOOK
+          </span>
+          {' '}
+        </button>
+      </form>
+    </>
   );
 };
 
