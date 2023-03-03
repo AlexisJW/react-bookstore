@@ -9,35 +9,67 @@ const Book = ({ bookProp }) => {
       <div className="book-part">
         <li>
           <div>
-            <h2>{bookProp.title}</h2>
             <p>
-              <b>AUTHOR: </b>
-              {' '}
-              {bookProp.author}
+              <span className="category">
+                {' '}
+                {bookProp.category}
+              </span>
             </p>
             <p>
-              <b>CATEGORY: </b>
-              {' '}
-              {bookProp.category}
+              <span className="title">
+                {' '}
+                {bookProp.title}
+              </span>
+            </p>
+            <p>
+              <span className="author">
+                {' '}
+                {bookProp.author}
+              </span>
             </p>
             <button
+              className="comments"
+              type="submit"
+            >
+              Comments
+            </button>
+            <button
+              className="remove"
               type="submit"
               onClick={() => {
                 dispatch(removeBook(bookProp.item_id));
               }}
             >
-              remove
+              Remove
+            </button>
+            <button
+              className="remove"
+              type="submit"
+            >
+              Edit
             </button>
           </div>
         </li>
       </div>
 
       <div className="progress-part">
-        <p> Progress </p>
+        <div className="oval-2">
+          hhh
+        </div>
+        <div className="row-percent-complete">
+          <div className="percent">
+            98%
+          </div>
+          <div className="completed">
+            complete
+          </div>
+        </div>
       </div>
 
       <div className="chapter-part">
-        <p> chapter </p>
+        <div className="current-chapter"> CURRENT CHAPTER </div>
+        <div className="current-lesson"> Chapter3: ALessonLearned </div>
+        <div className="rectangle-2"><span className="update-progress"> Update progress </span></div>
       </div>
 
     </div>
