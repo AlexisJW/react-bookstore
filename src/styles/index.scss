@@ -28,20 +28,12 @@
   justify-content: center;
 
   .panel-bg {
-    width: 87.5rem;
+    width: 100%;
     height: auto;
     margin: 0 2.5rem 2.063rem 0;
     padding: 0 0 4.625rem;
     border-radius: 4px;
     box-shadow: 0 0 90px 0 var(--black-5);
     background-color: var(--z);
-
-    .horizontal-divider {
-      width: 76rem;
-      height: 0.115rem;
-      border: solid 2px var(--white);
-      margin: 3.75rem 5.795rem 0.125rem 5.795rem;
-      background-color: #c4c4c4;
-    }
   }
 }

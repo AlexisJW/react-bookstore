@@ -4,10 +4,10 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
-  width: 65rem;
+  width: auto;
   height: 10.625rem;
-  margin: 0.375rem 2.938rem 0.125rem 3.195rem;
-  padding: 2rem 9.188rem 1.625rem 1.688rem;
+  margin: 0.375rem  6.955rem 0.125rem 3.195rem;
+  padding-left: 2rem;
   border-radius: 4px;
   border: solid 1px var(--white);
   background-color: var(--white-two);

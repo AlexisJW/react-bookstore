@@ -8,7 +8,7 @@ $black-two: #000;
   width: auto;
   height: 2.938rem;
   margin: 0 0 2.375rem;
-  padding: 1.438rem 6.188rem 1.688rem 6.25rem;
+  padding: 1.438rem 6.25rem 1.688rem 6.25rem;
   background-color: $white-two;
 
   .logo {
@@ -36,46 +36,46 @@ $black-two: #000;
     li a {
       text-decoration: none;
     }
-  }
 
-  .books {
-    width: 3.688rem;
-    height: 1rem;
-    margin: 1.125rem 2.563rem 0.688rem 0;
-    font-family: Montserrat, sans-serif;
-    font-size: 0.813rem;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: 1.9px;
-    color: $black-two;
-    text-decoration: none;
-  }
+    .books {
+      width: 3.688rem;
+      height: 1rem;
+      margin: 1.125rem 2.563rem 0.688rem 0;
+      font-family: Montserrat, sans-serif;
+      font-size: 0.813rem;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: 1.9px;
+      color: $black-two;
+      text-decoration: none;
+    }
 
-  .categories {
-    width: 6.563rem;
-    height: 1rem;
-    margin: 1.125rem 41.5rem 0.688rem 2.563rem;
-    opacity: 0.5;
-    font-family: Montserrat, sans-serif;
-    font-size: 0.813rem;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: 1.9px;
-    color: $black-two;
-  }
+    .categories {
+      width: 6.563rem;
+      height: 1rem;
+      margin: 1.125rem 23.5rem 0.688rem 2.563rem;
+      opacity: 0.5;
+      font-family: Montserrat, sans-serif;
+      font-size: 0.813rem;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: 1.9px;
+      color: $black-two;
+    }
 
-  .mask {
-    width: 1.099rem;
-    height: 1.099rem;
-    border: solid 1px $white-two;
-    border-radius: 32px;
+    .mask {
+      width: 1.099rem;
+      height: 1.099rem;
+      border: solid 1px $white-two;
+      border-radius: 32px;
 
-    svg {
-      color: $azure;
+      svg {
+        color: $azure;
+      }
     }
   }
 }

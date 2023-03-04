@@ -38,6 +38,7 @@ const Input = () => {
 
   return (
     <div className="form-wrapper">
+      <div className="horizontal-divider" />
       <span className="add-new-book">
         ADD NEW BOOK
       </span>

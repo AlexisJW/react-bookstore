@@ -8,7 +8,6 @@ const Books = ({ books }) => (
         <Book key={book.item_id} bookProp={book} />
       ))}
     </ul>
-    <div className="horizontal-divider" />
   </>
 );
 
