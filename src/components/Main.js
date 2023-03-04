@@ -5,7 +5,7 @@ import Layout from './Layout';
 import BookPage from '../routes/BookPage';
 import Categories from '../routes/Categories';
 import NotMatch from '../routes/NotMatch';
-import '../styles/index.css';
+import '../styles/index.scss';
 import { getBookItems } from '../redux/books/booksSlice';
 
 const Main = () => {
