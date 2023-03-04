@@ -2,6 +2,7 @@
 @import './navbar.scss';
 @import './book.scss';
 @import './input.scss';
+@import './categories.scss';
 
 :root {
   --bubble-gum-pink: #ff5ab7;
@@ -20,10 +21,11 @@
 }
 
 .Bookstore-CMS {
-  width: 100rem;
+  width: auto;
   height: auto;
   padding: 3.313rem 3.75rem 7.688rem 3.75rem;
   background-color: var(--pale-grey);
+  justify-content: center;
 
   .panel-bg {
     width: 87.5rem;
