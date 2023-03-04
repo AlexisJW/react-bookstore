@@ -20,6 +20,8 @@ Variables
   --azure: #0290ff;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 .Bookstore-CMS {
   width: 100rem;
   height: auto;
@@ -159,7 +161,7 @@ Variables
 .title {
   width: 12.313rem;
   height: 0.813rem;
-  font-family: RobotoSlab, sans-serif;
+  font-family: Roboto Slab, sans-serif;
   font-size: 1.375rem;
   font-weight: bold;
   font-stretch: normal;
