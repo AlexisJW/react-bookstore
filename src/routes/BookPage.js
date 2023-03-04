@@ -9,7 +9,7 @@ const BookPage = () => {
   if (isLoading) {
     return (
       <div className="loading">
-        <h1>Loading...</h1>
+        <center><h1>Loading...</h1></center>
       </div>
     );
   }
@@ -19,7 +19,7 @@ const BookPage = () => {
       <>
         <section className="book">
           <header>
-            <h4 className="empty-book">The book list is currently empty</h4>
+            <center><h2 className="empty-book">The book list is currently empty</h2></center>
           </header>
         </section>
         <Input />

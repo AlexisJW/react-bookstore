@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Roboto+Slab:wght@300;400;500;600&display=swap');
+@import './navbar.scss';
+@import './book.scss';
+@import './input.scss';
+@import './categories.scss';
+
+:root {
+  --bubble-gum-pink: #ff5ab7;
+  --black: #1e1e1e;
+  --pinkish-grey: #c7c7c7;
+  --very-light-pink: #c4c4c4;
+  --pale-grey: #f5f6fa;
+  --black-5: rgba(0, 0, 0, 0.05);
+  --z: #fafafa;
+  --black-two: #121212;
+  --white: #e8e8e8;
+  --white-two: #fff;
+  --medium-blue: #307bbe;
+  --cool-blue: #4386bf;
+  --azure: #0290ff;
+}
+
+.Bookstore-CMS {
+  width: auto;
+  height: auto;
+  padding: 3.313rem 3.75rem 7.688rem 3.75rem;
+  background-color: var(--pale-grey);
+  justify-content: center;
+
+  .panel-bg {
+    width: 100%;
+    height: auto;
+    margin: 0 2.5rem 2.063rem 0;
+    padding: 0 0 4.625rem;
+    border-radius: 4px;
+    box-shadow: 0 0 90px 0 var(--black-5);
+    background-color: var(--z);
+  }
+}
